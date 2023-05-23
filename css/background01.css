@@ -1,0 +1,50 @@
+body {
+    height: 200vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg00 {
+    height: 400px;
+    /*background-image: url(../img/mainvisual02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;*/
+    background: url(../img/mainvisual03.jpg)no-repeat fixed center center/cover;
+}
+
+.bg01 {
+    height: 500px;
+    background-image: url(../img/grafflogo.png);
+    background-repeat: no-repeat;
+    /* 지정축으로만 반복*/
+    /*background-position-x: right;*/
+    /*옆으로 붙기*/
+    background-position: center center;
+    /*X축 Y축*/
+    /*background-size: cover;*/
+    /*contain-x축을 채우고 나머지는 자동으로 만든다.
+    cover-y축을 채운다. 어떻게든 꽉 채우려고 함.제일 많이 씀*/
+}
+
+.bg02 {
+    height: 400px;
+    background-image: url(../img/mainvisual01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg03 {
+    filter: grayscale(1);
+    height: 400px;
+    background-image: url(../img/mainvisual02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

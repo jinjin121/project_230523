@@ -1,0 +1,50 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 500px;
+    border: 2px solid#333;
+    background: #fff;
+}
+
+.wrapper>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-left: 3px solid#333;
+    border-top: 1px solid#333;
+
+    transition: 0.5s;
+}
+
+.wrapper .eye_l {
+    transform: rotate(45deg);
+    margin: -100px 0 0 -200px;
+}
+
+.wrapper .eye_r {
+    transform: rotate(45deg);
+    margin: -100px 0 0 200px;
+}
+
+.wrapper .mouse {
+    transform: rotate(225deg);
+    margin: 100px 0 0 0;
+}
+
+.wrapper:hover>.eye_l {
+    transform: rotate(225deg);
+}
+
+.wrapper:hover>.eye_r {
+    transform: rotate(225deg);
+}
+
+.wrapper:hover>.mouse {
+    transform: rotate(45deg);
+}

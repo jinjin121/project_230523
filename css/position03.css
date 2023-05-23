@@ -1,0 +1,107 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topBanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: tomato;
+}
+
+.topBanner .inner {
+    height: 150px;
+    overflow: hidden;
+
+    transition: 0.5s;
+}
+
+.topBanner.on .inner {
+    height: 0;
+}
+
+.topBanner .btn::after {
+    content: "위로올려";
+}
+
+.topBanner.on .btn::after {
+    content: "아래내려";
+}
+
+.topBanner.on .btn i {
+    transform: rotate(180deg);
+}
+
+.topBanner .btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-100%, 100%);
+    margin: 0 0 0 600px;
+    background: tomato;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.rightBanner {
+    position: fixed;
+    top: 50%;
+    right: -300px;
+
+    width: 300px;
+    height: 400px;
+    background: tomato;
+
+    transition: 0.5s;
+
+}
+
+.rightBanner.on {
+    right: 0;
+}
+
+
+.rightBanner .btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 0);
+}
+
+.rightBanner.on .btn i {
+    transform: rotate(180deg);
+}
+
+.rightBanner .btn i {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+.leftBanner {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background: tomato;
+}
+
+.leftBanner .btn {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: translate(100%, 0);
+}
+
+.leftBanner .btn i {
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+}

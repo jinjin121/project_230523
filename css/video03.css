@@ -1,0 +1,76 @@
+.inner,
+.tit {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+p {
+    word-break: keep-all;
+    /*단어 띄어쓰는 부분에서 줄을 내려준다*/
+    /*line-height: 20px;*/
+    /*font-size: 16px;*/
+    /*계산하기 쉽도록 px단위를 적어준다.*/
+    /*한국은 line-height: 1.414;를 많이 쓴다.*/
+
+}
+
+#mainContent {
+    padding: 100px 0;
+}
+
+#mainContent h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+#mainContent p {
+    line-height: 20px;
+}
+
+#mainContent .tit {
+    margin: 0 auto 40px auto;
+}
+
+#mainContent .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#mainContent .content>* {
+    flex: 1 0 350px;
+}
+
+.responsiveBox {
+    position: relative;
+    background: lemonchiffon;
+    padding-bottom: 56.25%;
+}
+
+.responsiveBox>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive_map_Box {
+    position: relative;
+    background: chocolate;
+    padding-bottom: 56.25%;
+}
+
+.responsive_map_Box .root_daum_roughmap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive_map_Box .root_daum_roughmap .wrap_map {
+    height: 100%;
+}

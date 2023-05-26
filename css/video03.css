@@ -57,13 +57,13 @@ p {
     height: 100%;
 }
 
-.responsive_map_Box {
+.responsiveMapBox {
     position: relative;
     background: chocolate;
     padding-bottom: 56.25%;
 }
 
-.responsive_map_Box .root_daum_roughmap {
+.responsiveMapBox .root_daum_roughmap {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,6 +71,6 @@ p {
     height: 100%;
 }
 
-.responsive_map_Box .root_daum_roughmap .wrap_map {
+.responsiveMapBox .root_daum_roughmap .wrap_map {
     height: 100%;
 }

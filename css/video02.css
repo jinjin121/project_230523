@@ -20,8 +20,8 @@
 
 #mainContent .inner {
     display: flex;
-    align-items: flex-start;
-    gap: 100px;
+    align-items: center;
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -29,20 +29,20 @@
 
 #bgm1 {
     width: 200px;
-    height: 600px;
-    background: blueviolet;
+    height: 600px !important;
+    background: tomato;
 }
 
 #bgm2 {
     width: 100px;
-    height: 400px;
-    background: yellowgreen;
+    height: 400px !important;
+    background: tomato;
 }
 
 #bgm3 {
     width: 50px;
-    height: 300px;
-    background: hotpink;
+    height: 300px !important;
+    background: tomato;
 }
 
 #bgm2 iframe {

@@ -8,6 +8,30 @@
     <title>html basic</title>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main00.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <style>
+        hr {
+            position: relative;
+            border: none;
+            border-top: 1px solid #ddd;
+            overflow: visible;
+        }
+
+        hr::before {
+            content: "\ea10";
+            font-family: xeicon;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            padding: 10px;
+            color: #ddd;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            background: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +44,19 @@
             <a href="./doc/slick_mainAnimation01.html" target="_blank">Animation 연습</a>
         </li>
     </ul>
+
+    <hr>
+
+    <h2>css layout header part</h2>
+    <ul>
+        <li><a href="./doc/header02.html" target="_blank">sub메뉴 하나씩 나오기&모바일 메뉴</a></li>
+        <li><a href="./doc/header03.html" target="_blank">sub메뉴 같이 나오기</a></li>
+        <li><a href="./doc/header04.html" target="_blank"></a></li>
+    </ul>
+
+    <hr>
+
+
     <h2>background</h2>
     <ul>
         <li><a href="./doc/background.html" target="_blank">background연습</a></li>
@@ -49,7 +86,6 @@
             <a href="./doc/mainVisual.html" target="_blank">메인 비주얼 반응형 슬라이드</a>
         </li>
     </ul>
-
     <h2>slider-content</h2>
     <ul>
         <li>
@@ -60,6 +96,13 @@
     <h2>가상요소 - ::before, ::after</h2>
     <ul>
         <li><a href="./doc/pseudo-element01.html" target="_blank">가상요소</a></li>
+    </ul>
+
+    <h2>Tab menu 01-display: none, block으로 공간을 제어한다.</h2>
+    <ul>
+        <li>
+            <a href="./doc/tab01.html" target="_blank">display: none, block / tab menu</a>
+        </li>
     </ul>
 
 

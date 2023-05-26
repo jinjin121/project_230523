@@ -277,7 +277,7 @@ h2 {
     display: block;
     text-align: center;
     line-height: 100px;
-    /* 요소를 가룽ㄴ데 배치하는 예전 방식 */
+    /*요소를 가운데 배치하는 예전 방식*/
 }
 
 .customer .nav>li~li {
